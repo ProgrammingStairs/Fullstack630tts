@@ -8,8 +8,17 @@ class Demo2{
         arr[2] = 300;
         arr[3] = 400;
         
-       for(int i=0;i<arr.length;i++){
-            System.out.println("arr["+i+"] : "+arr[i]);
-       }
-    }
+    //    for(int i=0;i<arr.length;i++){
+    //         System.out.println("arr["+i+"] : "+arr[i]);
+    //    }
+
+        //  for each loop
+        // for(<data_type> <var_name> : array | collection){
+        //     ......
+        // }
+
+        for(int x : arr){
+            System.out.print(x+"\t");
+        }
+    }   
 }
